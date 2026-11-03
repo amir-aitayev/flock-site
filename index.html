@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flock</title>
+<meta name="description" content="A better way to live together. One place per flat for turns, the washing-machine queue, shared money, translated chat, requests and the house pact.">
+<meta property="og:title" content="Flock">
+<meta property="og:description" content="A better way to live together.">
+<meta property="og:image" content="assets/breakfast-chiaroscuro.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%237B2C5A'/%3E%3Cpath d='M6 22l5-4 4 2 11-9' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="formation" viewBox="0 0 120 120"><path style="fill:var(--back,currentColor)" d="M14.0711 101.733C12.4771 101.61 9.97164 101.226 7.94343 100.793C4.91694 100.146 1.02446 99.0407 0.375176 98.6429C0.0513446 98.4448 0.017257 98.1056 0.294016 97.8497C0.394655 97.7567 1.92941 96.723 3.70602 95.5531C8.40442 92.4569 11.1931 90.5036 14.7471 87.8207L15.928 86.9296L14.3576 84.3681C8.41335 74.6742 7.4029 73.0698 4.39507 68.5543C3.51204 67.2287 2.78971 66.0694 2.78971 65.9789C2.78971 65.5167 3.48283 65.3675 4.45189 65.6219C5.35845 65.8591 7.61797 66.8488 10.3377 68.1996C15.5352 70.7807 20.1086 73.6038 22.4655 75.6859C23.3729 76.4873 24.5384 77.8438 26.0796 79.8917C26.8718 80.945 27.6923 81.9657 27.9017 82.1597C28.4698 82.6847 29.0039 82.9064 29.7018 82.9072C30.4006 82.9081 30.731 82.798 32.4581 81.986C34.621 80.9694 36.0024 80.6213 37.8918 80.6148C39.601 80.6091 40.9426 80.883 42.5626 81.5686C43.5146 81.9714 43.9967 82.3121 43.9155 82.5249C43.8871 82.5983 43.4302 82.8771 42.9002 83.1437C41.0262 84.0877 39.4671 85.2788 37.6467 87.1571C36.3668 88.4794 35.8352 89.1169 34.1202 91.3865C31.9849 94.2129 30.9404 95.3754 29.4722 96.5624C27.9999 97.7518 25.613 99.1866 23.7089 100.025C20.3521 101.504 17.5496 102 14.0711 101.733Z"/><path style="fill:var(--back,currentColor)" d="M50.8369 79.8411C47.5012 79.6414 42.6202 78.6672 38.2164 77.3229C36.6882 76.8566 36.3229 76.4669 36.8854 75.9019C37.0234 75.7633 37.6897 75.2709 38.3666 74.8087C39.0426 74.3465 40.5823 73.2948 41.7875 72.4714C45.6848 69.8105 46.6231 69.1396 50.9019 65.9553C51.6899 65.3691 52.129 64.9917 52.1022 64.9224C52.0795 64.8629 51.7427 64.3085 51.3539 63.6906C50.6308 62.5419 50.268 61.9549 46.7805 56.2907C44.603 52.7526 43.4602 50.9093 43.1689 50.4618C43.0666 50.3052 42.4977 49.406 41.9044 48.4644C41.3111 47.5228 40.1935 45.7848 39.42 44.6027C38.6466 43.4198 38.0135 42.3893 38.0135 42.3119C38.0135 41.8847 38.8203 41.7078 39.7082 41.9393C41.2819 42.3502 46.8601 45.1114 50.7152 47.3867C52.142 48.2288 54.7635 49.9775 56.1124 50.9876C58.2705 52.6034 60.2581 54.8004 62.878 58.4657C64.3405 60.5128 64.588 60.6954 65.8923 60.6889C66.7031 60.6856 66.7055 60.6848 68.1648 60.1076C71.0785 58.954 72.0021 58.7445 74.1707 58.7421C75.3297 58.7413 75.8937 58.7771 76.4432 58.8864C77.4707 59.0918 78.7522 59.5361 79.6085 59.9845C80.2269 60.3081 80.3389 60.3978 80.3389 60.5674C80.3389 60.7419 80.2058 60.834 79.2773 61.3011C77.4317 62.228 76.1153 63.2153 74.3289 65.0096C73.0117 66.3319 72.3202 67.1537 70.6166 69.4159C68.8749 71.7296 68.0982 72.6524 67.0375 73.6698C65.4151 75.2261 63.6628 76.4172 61.1849 77.6482C58.0749 79.1938 55.8243 79.78 52.7596 79.8436C51.9927 79.8591 51.1275 79.8583 50.8369 79.8411Z"/><path style="fill:var(--front,currentColor);transition:fill .6s cubic-bezier(.2,0,0,1)" d="M88.8186 58.4127C85.2808 58.0597 80.4014 57.0358 76.9302 55.9189C75.6275 55.4999 75.2842 55.3295 75.2201 55.0727C75.0886 54.5477 74.8841 54.7083 80.623 50.8302C84.2468 48.3813 85.6436 47.4006 89.2463 44.7739C90.441 43.904 91.4036 43.1671 91.3857 43.1377C90.9523 42.4097 86.5055 35.0465 85.3717 33.1788C82.3387 28.1823 80.1287 24.6613 77.7296 21.0025C76.9107 19.7527 76.2403 18.6799 76.2403 18.6179C76.2403 18.4296 76.5382 18.1908 76.8441 18.1337C77.5527 18 78.7717 18.4647 82.0027 20.1C88.0151 23.1433 94.0226 26.9464 96.8138 29.4785C97.7625 30.3394 99.4555 32.1785 100.444 33.4234C101.069 34.2101 101.834 35.252 103.061 36.9892C103.663 37.8411 104.439 38.592 104.944 38.8096C105.59 39.0884 106.373 39.0469 107.365 38.68C109.869 37.7555 110.814 37.502 112.397 37.3316C114.427 37.114 116.68 37.533 118.728 38.5088C119.983 39.1072 119.975 39.2376 118.642 39.9045C116.044 41.204 113.763 43.3081 110.73 47.2025C110.189 47.8962 109.375 48.9397 108.921 49.5202C107.341 51.5411 105.629 53.1651 103.731 54.4442C100.766 56.4415 97.653 57.785 94.8131 58.2913C93.5389 58.5187 90.4978 58.5807 88.8186 58.4127Z"/></symbol>
+  <symbol id="bird-level" viewBox="0 0 24 24"><path d="M7.42553 23.889C5.54311 23.6802 2.94686 23.0746 1.09986 22.4141C0.406743 22.1663 0.224073 22.0655 0.189957 21.9137C0.119998 21.6032 0.011173 21.6981 3.06475 19.4046C4.99294 17.9562 5.73615 17.3762 7.65311 15.8228C8.28879 15.3083 8.80096 14.8725 8.79146 14.8551C8.56085 14.4246 6.19477 10.0699 5.59148 8.96529C3.97767 6.01024 2.80176 3.92788 1.52522 1.76403C1.08949 1.02491 0.732787 0.390412 0.732787 0.35377C0.732787 0.242395 0.891274 0.101128 1.05408 0.0673781C1.43108 -0.011693 2.07971 0.263127 3.79889 1.2303C6.998 3.03013 10.1945 5.27932 11.6796 6.77685C12.1845 7.28599 13.0853 8.3737 13.6113 9.10993C13.9438 9.57519 14.3506 10.1914 15.0036 11.2188C15.324 11.7226 15.7368 12.1667 16.0054 12.2954C16.3492 12.4603 16.7659 12.4357 17.2941 12.2188C18.6263 11.672 19.129 11.5221 19.9715 11.4213C21.0515 11.2926 22.2504 11.5404 23.3399 12.1175C24.0075 12.4714 24.0032 12.5486 23.2941 12.9429C21.9118 13.7115 20.6983 14.9559 19.0845 17.2591C18.7964 17.6694 18.3633 18.2865 18.1219 18.6298C17.2811 19.825 16.3703 20.7854 15.3603 21.5419C13.7827 22.7232 12.1262 23.5177 10.6151 23.8171C9.93714 23.9517 8.31902 23.9883 7.42553 23.889Z"/></symbol>
+  <symbol id="bird-climb" viewBox="0 0 24 24"><path d="M11.3234 24.7207C9.46857 25.1038 6.81225 25.3302 4.85153 25.2728C4.11576 25.2512 3.9109 25.2119 3.83152 25.078C3.66903 24.8043 3.59489 24.9282 5.79027 21.8033C7.17652 19.83 7.70412 19.0487 9.04721 16.9789C9.4928 16.2932 9.84522 15.7204 9.83082 15.7069C9.47845 15.3687 5.8825 11.9583 4.96741 11.0942C2.51943 8.78245 0.757578 7.16538 -1.12514 5.50191C-1.76795 4.93361 -2.30327 4.44039 -2.31459 4.40554C-2.34901 4.29962 -2.24193 4.11629 -2.09752 4.03388C-1.76341 3.84218 -1.0616 3.90311 0.872309 4.2917C4.47102 5.01486 8.20613 6.16618 10.0813 7.13149C10.7188 7.45971 11.9116 8.21581 12.6394 8.75347C13.0994 9.09321 13.6767 9.55352 14.6152 10.3289C15.0756 10.7091 15.6055 11.0038 15.9007 11.0432C16.2786 11.0938 16.6673 10.9417 17.1026 10.5721C18.2007 9.64044 18.6324 9.3425 19.4026 8.98631C20.39 8.53013 21.6067 8.39537 22.8212 8.60756C23.5656 8.73782 23.5853 8.81252 23.0328 9.40673C21.9556 10.5648 21.186 12.1233 20.3629 14.8124C20.2158 15.2917 19.9946 16.0125 19.871 16.4135C19.4407 17.8101 18.8713 19.005 18.1445 20.0365C17.0092 21.6475 15.6792 22.915 14.3347 23.6667C13.7314 24.0042 12.2038 24.5391 11.3234 24.7207Z"/></symbol>
+  <symbol id="bird-glide" viewBox="0 0 24 24"><path d="M5.05363 22.6781C3.25576 22.0825 0.842144 20.9504 -0.827165 19.9203C-1.45361 19.5338 -1.61133 19.3972 -1.61313 19.2416C-1.617 18.9233 -1.7432 18.9936 1.72051 17.3851C3.90769 16.3693 4.75525 15.9564 6.9533 14.8355C7.68205 14.4644 8.27364 14.1446 8.26796 14.1256C8.13191 13.6566 6.72292 8.90509 6.36248 7.69921C5.39832 4.47321 4.68105 2.19187 3.8823 -0.190103C3.60976 -1.00367 3.39277 -1.69846 3.40039 -1.7343C3.42355 -1.84324 3.60794 -1.94847 3.77421 -1.94764C4.15941 -1.9466 4.73673 -1.54292 6.21725 -0.239448C8.97225 2.18619 11.6313 5.05082 12.7726 6.82439C13.1605 7.42737 13.8155 8.6786 14.177 9.5081C14.4055 10.0323 14.6753 10.7196 15.1003 11.8604C15.309 12.4198 15.6205 12.94 15.8565 13.1218C16.1584 13.3545 16.5712 13.4171 17.1329 13.3147C18.5497 13.0569 19.0726 13.0147 19.9176 13.0913C21.0008 13.19 22.1219 13.6816 23.0677 14.4727C23.6471 14.9576 23.6269 15.0322 22.8513 15.2705C21.3394 15.7349 19.8937 16.6998 17.8363 18.6171C17.4692 18.9586 16.9172 19.4722 16.6097 19.7577C15.5388 20.752 14.4482 21.5021 13.3029 22.0321C11.5143 22.8595 9.72874 23.2923 8.18848 23.271C7.49733 23.2616 5.90695 22.961 5.05363 22.6781Z"/></symbol>
+</svg>
+<a class="skip" href="#idea">Skip to content</a>
+
+<header class="hero" id="top">
+  <img class="hero__photo" src="assets/breakfast-chiaroscuro.jpg" width="1920" height="1440" alt="Low morning sun across a kitchen table with a bread basket, jam and a coffee pot" fetchpriority="high">
+  <div class="hero__card" data-open>
+    <p class="hero__brand"><svg class="mark" aria-hidden="true"><use href="#formation"/></svg><span>Flock</span></p>
+    <h1 class="hero__title lines">
+      <span class="line"><span data-line style="--i:0">A better way</span></span>
+      <span class="line"><span data-line style="--i:1">to live together</span></span>
+    </h1>
+    <div class="hero__body">
+      <p class="hero__facts" data-load style="--d:300ms">Turns<br>The machine queue<br>Shared money</p>
+      <p class="hero__lead" data-load style="--d:360ms">One place per flat for turns, the washing&#8209;machine queue, shared money, translated chat, requests and the house pact.</p>
+    </div>
+    <div class="hero__foot" data-load style="--d:420ms">
+      <a class="pill pill--white" href="#waitlist">Join the waitlist</a>
+      <a class="link-plain" href="#how">See how it works</a>
+      <span class="hero__platforms">Coming to iPhone and Android</span>
+    </div>
+  </div>
+</header>
+
+<a class="stub" href="#waitlist" inert><svg class="stub__mark" aria-hidden="true"><use href="#formation"/></svg><span class="stub__act">Join the waitlist</span></a>
+
+<main>
+  <section class="idea" id="idea" aria-labelledby="idea-h">
+    <div class="idea__text">
+      <div class="idea__pin">
+        <h2 id="idea-h" class="idea__h">The idea</h2>
+        <p class="idea__statement">Birds flying in a V take turns at the front, where the air is hardest. Flock does the same for a flat.</p>
+        <dl class="idea__week">
+          <dt>Mon</dt><dd><span class="who" style="--p:#D98BB8">Ana</span> takes the bins out</dd>
+          <dt>Tue 19:00</dt><dd><span class="who" style="--p:#5EC4B6">Jonas</span> has the machine</dd>
+          <dt>Thu</dt><dd><span class="who" style="--p:#A79FE6">Mei</span> does the bathroom</dd>
+          <dt>Sun</dt><dd><span class="who" style="--p:#7FB0E0">Leo</span> pays for the big shop</dd>
+        </dl>
+        <p class="idea__sample">A sample week in a flat of four.</p>
+      </div>
+    </div>
+    <div class="idea__pics">
+      <figure class="pic pic--a">
+        <div class="shutter" data-reveal><img src="assets/m-s-r-apartment-stairs.jpg" width="1200" height="1600" alt="Looking up a spiral staircase in an old apartment building" loading="lazy" decoding="async"></div>
+        <figcaption>The stairwell of the Mısır Apartment, Istanbul.</figcaption>
+      </figure>
+      <figure class="pic pic--b">
+        <div class="shutter" data-reveal><img src="assets/finnish-laundry-room-from-1990.jpg" width="1920" height="1397" alt="The shared laundry room of a Finnish apartment building, with a washing machine and a spin dryer" loading="lazy" decoding="async"></div>
+        <figcaption>A building's shared laundry room, Finland, 1990. Somebody always needed the machine first.</figcaption>
+      </figure>
+      <figure class="pic pic--c">
+        <div class="shutter" data-reveal><img src="assets/tenement-house-facade-15-szewska-street-krakow.jpg" width="1920" height="1280" alt="Three tall windows on the facade of a tenement house" loading="lazy" decoding="async"></div>
+        <figcaption>One building, many households. Szewska street, Kraków.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="how" id="how" aria-label="How Flock works, one job at a time">
+    <div class="how__stage">
+      <article class="step is-on" style="--field:#8CC49D">
+        <div class="step__word-wrap"><h2 class="step__word">Clean</h2></div>
+        <p class="step__note">Turns rotate on their own, and everyone can see whose week it is.</p>
+        <div class="ui" data-ui>
+          <p class="ui__label">Bathroom</p>
+          <div class="ui__row"><svg class="ui__turn" aria-hidden="true" style="--front:#5EC4B6"><use href="#formation"/></svg><div><p class="ui__strong">This week: Mei</p><p class="ui__dim">Next: Leo, from Mon 2 Nov</p></div></div>
+          <p class="ui__pill ui__pill--ok">Done Wed, 18:20</p>
+        </div>
+      </article>
+      <article class="step" style="--field:#7FB0E0">
+        <div class="step__word-wrap"><h2 class="step__word">Wash</h2></div>
+        <p class="step__note">Join the washing&#8209;machine queue instead of asking the group chat.</p>
+        <div class="ui" data-ui>
+          <p class="ui__label">Machine</p>
+          <ol class="ui__queue">
+            <li><span class="ui__strong">Jonas</span><span class="ui__dim">until 19:40</span></li>
+            <li><span>Ana</span><span class="ui__dim">19:45</span></li>
+            <li><span>You</span><span class="ui__dim">21:00</span></li>
+          </ol>
+        </div>
+      </article>
+      <article class="step" style="--field:#E0A33A">
+        <div class="step__word-wrap"><h2 class="step__word">Split</h2></div>
+        <p class="step__note">Log a shared cost once. Flock splits it and keeps the balance.</p>
+        <div class="ui" data-ui>
+          <p class="ui__label">Big shop, paid by Leo</p>
+          <p class="ui__amount">48.60 €</p>
+          <p class="ui__dim">Split 4 ways, 12.15 € each</p>
+          <p class="ui__pill ui__pill--wait">Mei owes 12.15 €</p>
+        </div>
+      </article>
+      <article class="step" style="--field:#A79FE6">
+        <div class="step__word-wrap"><h2 class="step__word">Hush</h2></div>
+        <p class="step__note">Quiet hours and one&#8209;off requests, without a note on the fridge.</p>
+        <div class="ui" data-ui>
+          <p class="ui__label">Quiet hours</p>
+          <p class="ui__strong">23:00 to 07:00</p>
+          <div class="ui__request"><span class="ui__avatar" style="--p:#A79FE6">M</span><p>Exam at 9 tomorrow. Quiet from 22:00 tonight?</p></div>
+        </div>
+      </article>
+      <article class="step" style="--field:#D98BB8">
+        <div class="step__word-wrap"><h2 class="step__word">Talk</h2></div>
+        <p class="step__note">Chat shows every message in your language, so the whole flat follows.</p>
+        <div class="ui" data-ui>
+          <p class="ui__label">Flat chat</p>
+          <div class="ui__bubble"><p>Qualcuno ha visto il mio scolapasta?</p><p class="ui__dim">Translated: has anyone seen my colander?</p></div>
+          <div class="ui__bubble ui__bubble--me"><p>Top shelf, behind the rice.</p></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="rooms" id="rooms" aria-labelledby="rooms-h">
+    <div class="rooms__figure">
+      <figure class="plan">
+        <svg viewBox="0 0 400 500" role="img" aria-labelledby="plan-t">
+          <title id="plan-t">Floor plan of a shared flat, showing the room for the chosen job</title>
+          <rect width="400" height="500" fill="#1E2142"/>
+          <g class="room is-active" data-room="kitchen"><rect x="20" y="20" width="220" height="180" rx="6"/><text x="36" y="50">Kitchen</text></g>
+          <g class="room" data-room="living"><rect x="20" y="212" width="220" height="268" rx="6"/><text x="36" y="242">Living room</text></g>
+          <g class="room" data-room="bathroom"><rect x="252" y="20" width="128" height="140" rx="6"/><text x="266" y="50">Bathroom</text></g>
+          <g class="room" data-room="laundry"><rect x="252" y="172" width="128" height="96" rx="6"/><text x="266" y="202">Utility</text><circle cx="344" cy="238" r="16" fill="none" stroke="#EEEEF4" stroke-width="4" opacity=".6"/></g>
+          <g class="room" data-room="hall"><rect x="252" y="280" width="128" height="200" rx="6"/><text x="266" y="310">Hall</text></g>
+        </svg>
+        <figcaption>A four&#8209;room flat. The room lights up for the job you choose.</figcaption>
+      </figure>
+    </div>
+    <div class="rooms__list">
+      <h2 id="rooms-h" class="rooms__h">Every room has a turn</h2>
+      <ul class="rows" role="list">
+        <li><button class="row" type="button" data-room="kitchen" style="--m:#8CC49D" aria-pressed="true"><span class="row__name">Bins out</span><span class="row__when">Mondays</span><span class="row__desc">Rotates through everyone. The app reminds whoever is at the front.</span></button></li>
+        <li><button class="row" type="button" data-room="bathroom" style="--m:#8CC49D" aria-pressed="false"><span class="row__name">Bathroom</span><span class="row__when">Weekly</span><span class="row__desc">One person a week, marked done with the time it was finished.</span></button></li>
+        <li><button class="row" type="button" data-room="laundry" style="--m:#7FB0E0" aria-pressed="false"><span class="row__name">Washing machine</span><span class="row__when">Queue</span><span class="row__desc">Not a rota: you join the queue and the app tells you when it is free.</span></button></li>
+        <li><button class="row" type="button" data-room="kitchen" style="--m:#E0A33A" aria-pressed="false"><span class="row__name">The big shop</span><span class="row__when">Split</span><span class="row__desc">Paid by one, split by all, with the balance kept for you.</span></button></li>
+        <li><button class="row" type="button" data-room="living" style="--m:#A79FE6" aria-pressed="false"><span class="row__name">Quiet hours</span><span class="row__when">23:00 to 07:00</span><span class="row__desc">Agreed once in the house pact, with room for one&#8209;off requests.</span></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="birds" id="birds" aria-labelledby="birds-h">
+    <img class="birds__photo" src="assets/binnenplaats-van-een-huis-rp-p-1931.jpg" width="1920" height="1963" alt="An etching of the shared courtyard of a house, with a pump and a doorway" loading="lazy" decoding="async">
+    <div class="birds__card" data-reveal>
+      <h2 id="birds-h">Why birds</h2>
+      <p>Flock's mark is three starlings in formation. When it is your turn, the front bird takes your colour.</p>
+      <div class="birds__marks" aria-hidden="true">
+        <svg class="birds__turn" style="--front:#D98BB8"><use href="#formation"/></svg>
+        <svg class="birds__turn" style="--front:#5EC4B6"><use href="#formation"/></svg>
+        <svg class="birds__turn" style="--front:#7FB0E0"><use href="#formation"/></svg>
+      </div>
+      <img class="birds__plate" src="assets/a-starling-sitting-on-a-stone-in.jpg" width="1920" height="2539" alt="Hand-coloured engraving of a starling on a stone in front of a church" loading="lazy" decoding="async">
+      <a class="pill pill--brand pill--block" href="#pact">Set up your flat</a>
+    </div>
+  </section>
+
+  <section class="pact-wrap" id="pact" aria-labelledby="pact-h">
+    <h2 id="pact-h" class="pact-wrap__h">Write your house pact</h2>
+    <form class="pact" id="pact-form">
+      <div class="pact__inputs">
+        <fieldset class="pact__set">
+          <legend>Who lives here</legend>
+          <div class="pact__names">
+            <input id="n1" name="n1" value="Ana" aria-label="Flatmate 1" autocomplete="off">
+            <input id="n2" name="n2" value="Jonas" aria-label="Flatmate 2" autocomplete="off">
+            <input id="n3" name="n3" value="Mei" aria-label="Flatmate 3" autocomplete="off">
+            <input id="n4" name="n4" value="Leo" aria-label="Flatmate 4" autocomplete="off">
+            <input id="n5" name="n5" value="" placeholder="Add a fifth" aria-label="Flatmate 5" autocomplete="off">
+          </div>
+        </fieldset>
+        <fieldset class="pact__set">
+          <legend>Which jobs rotate</legend>
+          <div class="pact__jobs">
+            <label><input type="checkbox" name="job" value="Bins out" checked> Bins out</label>
+            <label><input type="checkbox" name="job" value="Bathroom" checked> Bathroom</label>
+            <label><input type="checkbox" name="job" value="Kitchen" checked> Kitchen</label>
+            <label><input type="checkbox" name="job" value="Hoovering"> Hoovering</label>
+            <label><input type="checkbox" name="job" value="Big shop"> Big shop</label>
+          </div>
+        </fieldset>
+        <label class="pact__date"><span>Starting the week of</span><input type="date" id="p-date" name="date"></label>
+      </div>
+      <div class="pact__sheet">
+        <div class="pact__lead">
+          <svg class="pact__mark" aria-hidden="true"><use href="#formation"/></svg>
+          <div><p class="pact__who" data-out="lead" aria-live="polite">Ana leads</p><p class="pact__kicker" data-out="week">This week</p></div>
+        </div>
+        <ul class="pact__this" data-out="this" role="list">
+          <li><span>Bins out</span><span>Ana</span></li>
+          <li><span>Bathroom</span><span>Jonas</span></li>
+          <li><span>Kitchen</span><span>Mei</span></li>
+        </ul>
+        <div class="pact__ahead">
+          <p class="pact__sub">The next four weeks</p>
+          <table class="pact__table" data-out="table"><tbody><tr><td>Turns appear here once you add names.</td></tr></tbody></table>
+        </div>
+        <button class="pill pill--brand pill--block" type="submit">Copy the pact</button>
+        <p class="pact__status" data-out="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </section>
+
+  <section class="faq" id="questions" aria-labelledby="faq-h">
+    <div class="faq__row"><h2 id="faq-h" class="faq__q faq__q--h">Questions</h2></div>
+    <div class="faq__row"><h3 class="faq__q">When can we use it?</h3><p class="faq__a">Flock opens in Rome and Milan first. Join the waitlist and we write once, the day it opens in your city.</p></div>
+    <div class="faq__row"><h3 class="faq__q">How do we sign in?</h3><p class="faq__a">With a six&#8209;digit code sent to your email, or with Sign in with Apple.</p></div>
+    <div class="faq__row"><h3 class="faq__q">Who can see our flat?</h3><p class="faq__a">Only the people in it. Turns, money and chat stay inside your flat.</p></div>
+    <div class="faq__row"><h3 class="faq__q">What if I tap the wrong thing?</h3><p class="faq__a">Most actions show an Undo for a few seconds instead of asking whether you are sure. Only steps that delete something ask first.</p></div>
+    <div class="faq__row"><h3 class="faq__q">We speak different languages.</h3><p class="faq__a">Chat is translated, so each of you reads the flat chat in your own language.</p></div>
+    <div class="faq__row"><h3 class="faq__q">iPhone or Android?</h3><p class="faq__a">Both, with a light and a dark appearance that follows your phone.</p></div>
+    <div class="faq__row"><h3 class="faq__q">What is the house pact?</h3><p class="faq__a">The few rules your flat agrees on, like quiet hours and the shelf in the fridge, kept where everyone can see them.</p></div>
+  </section>
+
+  <section class="cta-wrap" id="waitlist" aria-labelledby="cta-h">
+    <div class="cta">
+      <div class="cta__top">
+        <svg class="cta__arrow" viewBox="0 0 48 48" aria-hidden="true"><path d="M12 36L36 12M16 12h20v20" fill="none" stroke="currentColor" stroke-width="4"/></svg>
+        <div class="cta__side">
+          <p class="cta__note">Flock opens in Rome and Milan first. Leave your email and we write once, the day it opens in your city.</p>
+          <form class="wait" id="wait-form" novalidate>
+            <label class="wait__field"><span class="sr-only">Email</span><input type="email" name="email" required autocomplete="email" inputmode="email" placeholder="you@example.com"></label>
+            <label class="wait__field"><span class="sr-only">City</span><select name="city"><option value="rome">Rome</option><option value="milan">Milan</option><option value="other">Somewhere else</option></select></label>
+            <button class="pill pill--dark" type="submit">Join the waitlist</button>
+            <p class="wait__status" data-out="wait" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+      <h2 id="cta-h" class="cta__word">Soon</h2>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__pic"><img src="assets/rooftops-and-chimneys-geograph-org-uk-5427190.jpg" width="1920" height="1280" alt="Tiled roofs and rows of red chimney pots" loading="lazy" decoding="async"></div>
+  <div class="foot__side">
+    <p class="foot__mark"><svg class="mark" aria-hidden="true"><use href="#formation"/></svg>Flock</p>
+    <nav aria-label="Sections">
+      <ul class="foot__menu" role="list">
+        <li><a href="#idea">The idea</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#birds">Why birds</a></li>
+        <li><a href="#pact">House pact</a></li>
+        <li><a href="#questions">Questions</a></li>
+      </ul>
+    </nav>
+    <p>A better way to live together.</p>
+    <p class="credits">Pictures: <a href="https://commons.wikimedia.org/wiki/File:Breakfast_chiaroscuro.JPG">“Breakfast chiaroscuro”</a> by Demeester, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>; <a href="https://commons.wikimedia.org/wiki/File:M%C4%B1s%C4%B1r_Apartment_Stairs.jpg">“Mısır Apartment Stairs”</a> by Loralielo, CC0; <a href="https://commons.wikimedia.org/wiki/File:Finnish_laundry_room_from_1990.jpg">“Finnish laundry room from 1990”</a> by Ilari Järvinen, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Tenement_house,_facade,_15_Szewska_street,_Krak%C3%B3w,_Poland.jpg">“Tenement house, facade, 15 Szewska street, Kraków”</a> by Igor123121, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:A_starling_sitting_on_a_stone_in_front_of_a_church._Coloured_Wellcome_V0020509.jpg">“A starling sitting on a stone in front of a church”</a>, Wellcome Collection, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Binnenplaats_van_een_huis,_RP-P-1931-2292.jpg">“Binnenplaats van een huis”</a>, Rijksmuseum, CC0; <a href="https://commons.wikimedia.org/wiki/File:Rooftops_and_chimneys_-_geograph.org.uk_-_5427190.jpg">“Rooftops and chimneys”</a> by Bill Boaden, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>. All via Wikimedia Commons.</p>
+    <p class="foot__legal">Names, amounts and messages on this page are examples.</p>
+  </div>
+</footer>
+
+<script src="base.js" defer></script>
+<script src="main.js" defer></script>
+</body>
+</html>
