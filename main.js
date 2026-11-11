@@ -21,7 +21,7 @@
     setTimeout(() => wait?.email.focus({ preventScroll: true }), reduce ? 0 : 500);
   }));
 
-  // The rota: people x jobs, moved one place a week. The front bird takes the lead's colour.
+  // The rota: people x chores, moved one place a week. The front bird takes the lead's colour.
   const PEOPLE = ['#7B2C5A', '#1D7A6F', '#5E52B5', '#2A6399', '#94600A'];
   const form = $('#pact-form');
   if (form) {
@@ -49,9 +49,9 @@
       const mark = $('.pact__mark');
       $('[data-out="week"]').textContent = `the week of ${short(start)}`;
       if (!names.length || !jobs.length) {
-        $('[data-out="lead"]').textContent = names.length ? 'Pick a job' : 'Add a name';
+        $('[data-out="lead"]').textContent = names.length ? 'Pick a chore' : 'Add a name';
         thisList.innerHTML = '';
-        table.innerHTML = '<tbody><tr><td>Turns appear here once you add names and jobs.</td></tr></tbody>';
+        table.innerHTML = '<tbody><tr><td>Turns appear here once you add names and chores.</td></tr></tbody>';
         return;
       }
       const lead = who(names, 0, 0);
@@ -75,7 +75,7 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const { names, jobs, start } = read();
-      if (!names.length || !jobs.length) { $('[data-out="status"]').textContent = 'Add at least one name and one job first.'; return; }
+      if (!names.length || !jobs.length) { $('[data-out="status"]').textContent = 'Add at least one name and one chore first.'; return; }
       const lines = [`Our rota, from the week of ${short(start)}`, ''];
       for (let w = 0; w < 5; w++) {
         const d = new Date(start); d.setDate(d.getDate() + 7 * w);
